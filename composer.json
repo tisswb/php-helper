@@ -19,5 +19,11 @@
     "psr-4": {
       "tisswb\\helper\\": "scr"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
 }
