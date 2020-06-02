@@ -1,0 +1,23 @@
+{
+  "name": "tisswb/yii2-helper",
+  "description": "yii2 useful helper",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tisswb",
+      "email": "tisswb@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.*",
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "tisswb\\helper\\": "scr"
+    }
+  }
+}
